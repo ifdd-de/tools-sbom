@@ -2,19 +2,14 @@
 
 ## Supported versions
 
-Only the latest minor release receives security updates.
-
-| Version | Supported |
-|---------|-----------|
-| 1.x     | ✅        |
-| < 1.0   | ❌        |
+Only the latest release receives security updates.
 
 ## Reporting a vulnerability
 
 Please **do not** open a public GitHub issue for security problems.
 
 Instead, use GitHub's [private vulnerability reporting][gh-pvr] for this
-repository, or email **security@example.com** with:
+repository, or email **maintainers@ifdd.de** with:
 
 - A description of the issue and its impact.
 - Steps to reproduce, ideally a minimal proof of concept.

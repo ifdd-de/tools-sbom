@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- The repository moved to the GitHub organisation `ifdd-de` as
+  `tools-sbom`; links point there. The package name stays
+  `sphinx-sbom-generator`.
+- Package metadata: maintainers `ifdd.de contributors <maintainers@ifdd.de>`,
+  homepage https://ifdd.de/packages/ and repository URL. PyPI shows them with
+  the next release.
+- `SECURITY.md`: contact `maintainers@ifdd.de`; the latest release is the
+  supported one.
+
 ## [0.3.0] - 2026-05-10
 
 ### Added
@@ -35,5 +45,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Command-line interface (`sphinx-sbom-generator`) and module entry point
   (`python -m sbom_generator`), including `--version` / `-V`.
 
-[Unreleased]: https://github.com/mleist/sphinx-sbom-generator/compare/v0.3.0...HEAD
-[0.3.0]: https://github.com/mleist/sphinx-sbom-generator/releases/tag/v0.3.0
+[Unreleased]: https://github.com/ifdd-de/tools-sbom/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/ifdd-de/tools-sbom/releases/tag/v0.3.0

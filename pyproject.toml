@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [{ name = "Markus Leist", email = "markus@lei.st" }]
+maintainers = [{ name = "ifdd.de contributors", email = "maintainers@ifdd.de" }]
 keywords = ["sbom", "security", "vulnerabilities", "sphinx", "documentation", "supply-chain"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -48,9 +49,10 @@ dev = [
 sphinx-sbom-generator = "sbom_generator.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/mleist/sphinx-sbom-generator"
-Issues = "https://github.com/mleist/sphinx-sbom-generator/issues"
-Changelog = "https://github.com/mleist/sphinx-sbom-generator/blob/main/CHANGELOG.md"
+Homepage = "https://ifdd.de/packages/"
+Repository = "https://github.com/ifdd-de/tools-sbom"
+Issues = "https://github.com/ifdd-de/tools-sbom/issues"
+Changelog = "https://github.com/ifdd-de/tools-sbom/blob/main/CHANGELOG.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["sbom_generator"]
