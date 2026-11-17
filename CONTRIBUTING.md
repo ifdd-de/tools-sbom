@@ -6,7 +6,7 @@ the workflow for code contributions.
 ## Development setup
 
 ```bash
-git clone https://github.com/mleist/sphinx-sbom-generator.git
+git clone https://github.com/ifdd-de/tools-sbom.git
 cd sphinx-sbom-generator
 python -m venv .venv
 source .venv/bin/activate         # Windows: .venv\Scripts\activate

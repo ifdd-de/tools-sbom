@@ -1,10 +1,10 @@
 # sphinx-sbom-generator
 
-[![CI](https://github.com/mleist/sphinx-sbom-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/mleist/sphinx-sbom-generator/actions/workflows/ci.yml)
+[![CI](https://github.com/ifdd-de/tools-sbom/actions/workflows/ci.yml/badge.svg)](https://github.com/ifdd-de/tools-sbom/actions/workflows/ci.yml)
 [![Python versions](https://img.shields.io/pypi/pyversions/sphinx-sbom-generator.svg)](https://pypi.org/project/sphinx-sbom-generator/)
 [![PyPI version](https://img.shields.io/pypi/v/sphinx-sbom-generator.svg)](https://pypi.org/project/sphinx-sbom-generator/)
 [![License: BSD-3-Clause](https://img.shields.io/badge/license-BSD--3--Clause-green.svg)](LICENSE)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mleist/sphinx-sbom-generator/total)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ifdd-de/tools-sbom/total)
 
 Generate a Software Bill of Materials (SBOM) as a Sphinx-ready Markdown
 document from `requirements.txt`, `pyproject.toml`, and/or `package.json`
@@ -189,6 +189,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Please also read our
 ## Security
 
 To report a vulnerability, see [SECURITY.md](SECURITY.md).
+
+## AI assistance
+
+Parts of this repository, in particular tests, test data and documentation,
+were developed or improved with the help of large language models. The
+maintainer has reviewed and approved them.
 
 ## License
 
