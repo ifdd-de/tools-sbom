@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sphinx-sbom-generator"
-version = "0.3.0"
+version = "0.3.1"
 description = "Generate a Sphinx-ready Markdown SBOM from requirements.txt, pyproject.toml, and package.json manifests, with optional transitive dependency resolution."
 readme = "README.md"
 requires-python = ">=3.10"
