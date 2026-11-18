@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   runner instead of `softprops/action-gh-release`, which the organisation
   does not allow; the tag of the first attempt at 0.3.1 failed at startup
   and published nothing.
+- CI: tests no longer run on macOS (pure Python package; macOS runners often
+  start late). Linux with Python 3.10 to 3.14 and Windows with 3.12 stay.
 
 ### Removed
 - The CodeQL workflow `.github/workflows/codeql.yml`. The organisation
