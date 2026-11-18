@@ -17,6 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `SECURITY.md`: contact `maintainers@ifdd.de`; the latest release is the
   supported one.
 
+- Release workflow: the GitHub release is created with the GitHub CLI of the
+  runner instead of `softprops/action-gh-release`, which the organisation
+  does not allow; the tag of the first attempt at 0.3.1 failed at startup
+  and published nothing.
+
 ### Removed
 - The CodeQL workflow `.github/workflows/codeql.yml`. The organisation
   enables CodeQL's default setup, and GitHub refuses the results of an

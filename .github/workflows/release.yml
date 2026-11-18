@@ -63,18 +63,20 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v7
-
       - name: Download distribution
         uses: actions/download-artifact@v8
         with:
           name: dist
           path: dist/
 
+      # GitHub CLI of the runner: the organisation allows only actions of
+      # GitHub, of ifdd-de and a short list of others.
       - name: Create GitHub release
-        uses: softprops/action-gh-release@v3
-        with:
-          files: dist/*
-          generate_release_notes: true
-          draft: false
-          prerelease: ${{ contains(github.ref, '-') }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          prerelease=()
+          case "$TAG" in *-*) prerelease=(--prerelease) ;; esac
+          gh release create "$TAG" dist/* --repo "$GITHUB_REPOSITORY" \
+            --verify-tag --generate-notes "${prerelease[@]}"
