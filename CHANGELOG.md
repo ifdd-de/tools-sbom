@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.3.1] - 2026-11-18
 
 ### Changed
 - The repository moved to the GitHub organisation `ifdd-de` as
@@ -45,5 +45,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Command-line interface (`sphinx-sbom-generator`) and module entry point
   (`python -m sbom_generator`), including `--version` / `-V`.
 
-[Unreleased]: https://github.com/ifdd-de/tools-sbom/compare/v0.3.0...HEAD
+[0.3.1]: https://github.com/ifdd-de/tools-sbom/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/ifdd-de/tools-sbom/releases/tag/v0.3.0
