@@ -17,6 +17,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `SECURITY.md`: contact `maintainers@ifdd.de`; the latest release is the
   supported one.
 
+### Removed
+- The CodeQL workflow `.github/workflows/codeql.yml`. The organisation
+  enables CodeQL's default setup, and GitHub refuses the results of an
+  own workflow while it is on ("advanced configurations cannot be processed
+  when the default setup is enabled"); every CodeQL run failed since the move.
+
 ## [0.3.0] - 2026-05-10
 
 ### Added
